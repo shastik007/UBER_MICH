@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./response.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<title>Document</title>
+	</head>
+	<body>
+		<header class="container">
+			<div class="header_logo_container">
+				<img
+					class="logo"
+					src="https://kirgistan-reisen.com/wp-content/uploads/2019/10/logo-ns-1.png"
+					alt=""
+				/>
+			</div>
+			<div class="header_burger">
+				<input id="menu-toggle" type="checkbox" />
+				<label class="menu-button-container" for="menu-toggle">
+					<div class="menu-button"></div>
+				</label>
+			</div>
+			<ul class="nav">
+				<li>
+					<a href=""><span>START</span></a>
+				</li>
+				<li class="UBER">
+					<a href=""><span class="select_in_nav">UBER ▼</span></a>
+					<ul class="sub_nav_select">
+						<li class="li">UBER MIC</li>
+						<li class="li2">UBER KIRGISISTAN</li>
+					</ul>
+				</li>
+				<li>
+					<a href=""><span>REISEZIELE</span></a>
+				</li>
+				<li>
+					<a href=""><span>GALLERIE</span></a>
+				</li>
+				<li>
+					<a href=""><span>BLOG</span></a>
+				</li>
+				<li>
+					<a href=""><span>KONTAKT</span></a>
+				</li>
+			</ul>
+			<button class="mail_btn">EMAIL</button>
+		</header>
+		<div class="bg_burger">
+			<div class="container mobile_menu_container">
+				<ul class="mobile_nav">
+					<li>START</li>
+					<li>
+						<div class="uber_select">
+							<span>UBER</span>
+							<label style="display: inline-block">
+								<input class="inpF" type="checkbox" />
+								<div class="f"></div>
+							</label>
+						</div>
+						<ul class="sub_nav">
+							<li class="li">UBER MIC</li>
+							<li>UBER KIRGISISTAN</li>
+						</ul>
+					</li>
+					<li>REISEZIELE</li>
+					<li>GALLERIE</li>
+					<li>BLOG</li>
+					<li>KONTAKT</li>
+				</ul>
+			</div>
+		</div>
+		<section class="about_author container">
+			<div class="blocks_for_first_section">
+				<h1><strong>UBER</strong> MICH</h1>
+				<div>
+					Mein Name ist Talant Asemov, Direktor GmbH Edelweiss
+					Touristik. Ich wurde 1970 in Bischkek geboren. Meine Familie
+					und ich sind ihre persönlichern Reiseleiter.
+				</div>
+				<p>
+					Nach Abschluss meiner schullaufbahn habe ich Germanistik und
+					die deutsche Sprache studiert. Danach arbeitete ich einige
+					Jahre als Deutschlehrer in einem S.O.S Kinderdorf in einem
+					Vorort von Bischkek. Ein Praktikum führte mich für einige
+					Zeit nach Deutschland zu einem Nachrichtensender.
+				</p>
+				<p>
+					Meine Frau Gulnara Asemov, die ebenfalls deutsch spricht,
+					ist Journalistin und war einige zeit für die Weltbank tätig.
+					Unsere beiden söhne Sultan und Tilek gingen in eine Schule,
+					in der Deutsch erste Fremdsprache ist.
+				</p>
+			</div>
+			<div class="blocks_for_first_section">
+				<p class="space">
+					Als wir erkannten, über welches touristische Potential
+					unsere Heimat Kirgistan verfügt, haben wir uns im Jahre 2002
+					dazu entschlossen, ein eigenes Reiseunternehmen zu gründen.
+					Wir haben uns zum Ziel gesetzt, unseren Gästen einen
+					bestmöglichen familiären Service weit entfernt vom
+					Massentourismus zu bieten und mit unseren Reisen einen
+					bleibenden Eindruck unseres einzigartigen Landes bei Ihnen
+					zu hinterlassen.
+				</p>
+				<div class="btn_wrapper">
+					<button class="contackt_btn">KONTAKT INFO</button>
+				</div>
+			</div>
+		</section>
+		<section class="slider">
+			<h1><strong>KIRGISTAN</strong> REISEN</h1>
+			<div class="container_for_slider">
+				<div
+					id="carouselExampleCaptions"
+					class="carousel slide"
+					data-bs-ride="carousel"
+					data-bs-interval="3000"
+				>
+					<div class="carousel-indicators">
+						<button
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide-to="0"
+							class="active"
+							aria-current="true"
+							aria-label="Slide 1"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide-to="1"
+							aria-label="Slide 2"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide-to="2"
+							aria-label="Slide 3"
+						></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img
+								src="./assets/photo_slider3.jpg"
+								class="d-block w-100 fotos"
+								alt="..."
+							/>
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Метка первого слайда</h5>
+								<p>
+									Некоторый репрезентативный заполнитель для
+									первого слайда.
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="./assets/photo_slider1.jpg"
+								class="d-block w-100 fotos"
+								alt="..."
+							/>
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Метка второго слайда</h5>
+								<p>
+									Некоторый репрезентативный заполнитель для
+									второго слайда.
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="./assets/photo_slider2.jpg"
+								class="d-block w-100 fotos"
+								alt="..."
+							/>
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Метка третьего слайда</h5>
+								<p>
+									Некоторый репрезентативный заполнитель для
+									третьего слайда.
+								</p>
+							</div>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExampleCaptions"
+						data-bs-slide="prev"
+					>
+						<span
+							class="carousel-control-prev-icon"
+							aria-hidden="true"
+						></span>
+						<span class="visually-hidden">Предыдущий</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExampleCaptions"
+						data-bs-slide="next"
+					>
+						<span
+							class="carousel-control-next-icon"
+							aria-hidden="true"
+						></span>
+						<span class="visually-hidden">Следующий</span>
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="section_phone container">
+			<div class="phone_img">
+				<img src="./assets/phone.jpg" alt="" />
+			</div>
+			<div class="description">
+				<h6>
+					KONTAKTIEREN SIE UNS
+					<div class="line"></div>
+				</h6>
+				<h1><strong>JEDERZEIT </strong><span>& ÜBERALL</span></h1>
+				<p>
+					Ist es uns gelungen Ihr Interesse an Kirgistan zu wecken?
+					Dann schicken Sie uns eine Mail mit ihren Fragen oder 
+					Wünschen. Gerne senden wir ihnen ein unverbindliches 
+					Angebot. Wir freuen uns auf Sie und heißen Sie herzlich
+					
+					willkommen!
+				</p>
+				<div class="btn_wrapper">
+					<button class="contackt_btn">EMAIL SENDEN</button>
+				</div>
+			</div>
+		</section>
+		<div class="bg_footer">
+			<footer class="container">
+				<div class="footer_display">
+					<div class="block_for_footer_text block_img">
+						<img
+							class="logo"
+							src="https://kirgistan-reisen.com/wp-content/uploads/2019/10/white-350-1-300x93.png"
+							alt="image"
+						/>
+					</div>
+					<div class="block_for_footer_text">
+						<h4>POSTANSCHRIFT</h4>
+						<p>
+							Prospekt Mira 61a (Ap587) <br />
+							720044 Bishkek <br />
+							Republic of Kyrgyzstan <br />
+						</p>
+					</div>
+					<div class="block_for_footer_text">
+						<h4>KONTAKT</h4>
+						<p>
+							0996 55 171 8899 <br />
+							info@kirgistan-reisen.com <br />
+						</p>
+						<div class="block_icons">
+							<a href="https://www.youtube.com/">
+								<i class="icon_you_tube icons"></i>
+							</a>
+							<a href="https://web.whatsapp.com/">
+								<i class="icon_whats_app icons"></i>
+							</a>
+							<a href="https://www.facebook.com/">
+								<i class="icon_facebook icons"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div class="under_footer_back">
+			<div class="container">
+				<p>
+					<a class="webdesign" href="https://wetnose.design/"
+						>webdesign | WetNose</a
+					>
+				</p>
+			</div>
+		</div>
+
+		<script src="./script.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
