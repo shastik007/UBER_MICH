@@ -277,6 +277,16 @@ header {
 	justify-content: space-between;
 	width: 100%;
 	padding-top: 80px;
+	animation: appearance ease-in 1s;
+}
+
+@keyframes appearance{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
 }
 
 .blocks_for_first_section {
