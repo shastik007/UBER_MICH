@@ -71,6 +71,10 @@ header {
 	color: #4fb5eb;
 	border-bottom: 4px solid #4fb5eb;
 }
+.uber{
+	color: #4fb5eb;
+	border-bottom: 4px solid #4fb5eb;
+}
 
 .bg_burger {
 	background-color: rgba(49, 96, 159, 1);
@@ -124,6 +128,7 @@ header {
 	text-decoration: none;
 	color: #4fb5eb;
 }
+
 .sub_nav_select .li {
 	cursor: pointer;
 	list-style: none;
