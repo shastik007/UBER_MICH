@@ -1,0 +1,66 @@
+.bg_footer {
+	background-color: #1f3d66;
+}
+.footer-block {
+	padding: 70px 0;
+}
+
+.footer_display {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+.logo {
+	width: 190px;
+}
+.block_for_footer_text {
+	width: 250px;
+}
+.block_for_footer_text > p {
+	color: #7fb5de;
+	margin-bottom: 18px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	line-height: 1.9em;
+}
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: 0.2em;
+	color: white;
+	margin-bottom: 20px;
+}
+.under_footer_back {
+	background-color: #1c375c;
+}
+.webdesign {
+	color: #4cb8e0;
+	font-size: 14px;
+	cursor: pointer;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+}
+.icon_you_tube {
+	content: url(./assets/youtube-logotype.png);
+	transition: 0.4s;
+}
+.icon_whats_app {
+	content: url(./assets/whatsapp.png);
+	transition: 0.4s;
+}
+.icon_facebook {
+	content: url(./assets/facebook-app-symbol.png);
+	transition: 0.4s;
+}
+.icon_you_tube:hover,
+.icon_whats_app:hover,
+.icon_facebook:hover {
+	opacity: 0.5;
+}
+.icons {
+	width: 24px;
+	margin-right: 12px;
+	text-decoration: none;
+}

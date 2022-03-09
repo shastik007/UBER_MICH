@@ -1,0 +1,130 @@
+header {
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	width: 177px;
+	height: 60px;
+}
+
+.header_burger {
+	display: none;
+}
+.mail_btn {
+	background-color: rgb(255, 255, 255);
+	font-weight: 400;
+	border: 1px solid #6ec1e4;
+	border-radius: 3px;
+	color: #4054b2;
+	font-size: 12px;
+	letter-spacing: 0.2em;
+	width: 84px;
+	height: 39px;
+}
+.mail_btn:hover {
+	transition: all 0.2s ease-in-out;
+	background-color: #4fb5eb;
+	color: white;
+}
+.nav {
+	width: 641px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+.nav > li {
+	list-style: none;
+	text-decoration: none;
+}
+.nav li .link {
+	padding: 22px 1px;
+	height: 50px;
+	color: #31609f;
+	text-decoration: none;
+	letter-spacing: 0.2em;
+	transition: 0.1s;
+}
+.nav li .link:hover {
+	color: #4fb5eb;
+	border-bottom: 4px solid #4fb5eb;
+}
+.uber{
+	color: #4fb5eb;
+	border-bottom: 4px solid #4fb5eb;
+}
+
+.bg_burger {
+	background-color: rgba(49, 96, 159, 1);
+	width: 100%;
+	animation: yes ease-in-out 0.4s;
+	display: none;
+}
+@keyframes yes {
+	0% {
+		opacity: 0;
+		height: 0px;
+	}
+	100% {
+		opacity: 1;
+		height: 230px;
+	}
+}
+.burger_no {
+	animation: no ease-in-out 0.3s;
+}
+@keyframes no {
+	0% {
+		opacity: 1;
+		height: 230px;
+	}
+	100% {
+		opacity: 0;
+		height: 0px;
+	}
+}
+.sub_nav_select {
+	display: none;
+	border-top: 4px solid #4fb5eb;
+	width: 260px;
+	background-color: #31609f;
+	padding: 7px 25px;
+	position: absolute;
+	color: gainsboro;
+	transform: translateY(23px);
+	animation: select_nav ease-in 0.15s;
+}
+@keyframes select_nav {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.sub_nav_select a {
+	text-decoration: none;
+	color: #4fb5eb;
+}
+
+.sub_nav_select .li {
+	cursor: pointer;
+	list-style: none;
+	width: 90%;
+	height: 50px;
+	padding: 17px;
+	border-bottom: 1px solid rgb(136, 136, 146);
+}
+.sub_nav_select .li2{
+	list-style: none;
+	cursor: pointer;
+	width: 90%;
+	height: 50px;
+	padding: 17px;
+}
+.sub_nav_select a:hover {
+	color: white;
+}

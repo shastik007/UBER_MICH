@@ -1,0 +1,132 @@
+.mobile_menu_container {
+	width: 1200px;
+	margin: 0 auto;
+	color: #b9c8e9;
+	padding: 20px 40px;
+}
+.mobile_nav {
+	list-style: none;
+	letter-spacing: 0.1em;
+	font-size: 11px;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 20px;
+}
+.mobile_nav li {
+	line-height: 260%;
+}
+.mobile_nav li a {
+	text-decoration: none;
+	color: #b9c8e9;
+}
+.mobile_nav li a:hover{
+	color: white;
+}
+.sub_nav {
+	list-style: none;
+	margin-left: 15px;
+	display: none;
+	animation: yes_sub_nav ease-in-out 0.3s;
+}
+@keyframes yes_sub_nav {
+	0% {
+		opacity: 0;
+		height: 0px;
+	}
+	100% {
+		opacity: 1;
+		height: 54px;
+	}
+}
+.sub_li {
+	height: 30px;
+}
+.sub_nav_no {
+	animation: sub_nav_no ease 0.3s;
+}
+@keyframes sub_nav_no {
+	0% {
+		opacity: 1;
+		height: 54px;
+	}
+	100% {
+		opacity: 0;
+		height: 0px;
+	}
+}
+.inpF {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+}
+.f {
+	position: absolute;
+	transform: translateY(-23px);
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid rgb(179, 178, 178);
+	border-bottom: 5px solid transparent;
+	transition: 0.3s;
+}
+.inpF:checked + .f {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid rgb(179, 178, 178);
+}
+.uber_select {
+	display: flex;
+	justify-content: space-between;
+}
+.select_icon {
+	width: 100px;
+	height: auto;
+	border: none;
+	background-color: transparent;
+	transform: rotate(-90deg);
+	transition: 0.4s;
+}
+.select_icon:focus {
+	transform: rotate(-180deg);
+	border: none;
+}
+#menu-toggle {
+	display: none;
+	position: absolute;
+	transform: translateY(-20px);
+	width: 40px;
+	height: 40px;
+}
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+	display: block;
+	background-color: rgb(55, 62, 126);
+	position: absolute;
+	height: 2px;
+	width: 30px;
+	transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+	border-radius: 2px;
+}
+.menu-button::before {
+	content: '';
+	margin-top: -8px;
+}
+.menu-button::after {
+	content: '';
+	margin-top: 8px;
+}
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+	margin-top: 0px;
+	transform: rotate(405deg);
+}
+#menu-toggle:checked + .menu-button-container .menu-button {
+	background: rgba(255, 255, 255, 0);
+}
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+	margin-top: 0px;
+	transform: rotate(-405deg);
+}
